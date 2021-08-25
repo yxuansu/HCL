@@ -1,0 +1,12 @@
+CUDA_VISIBLE_DEVICES=7 python inference.py\
+    --train_context_path ../data/Douban/tiny_data/tiny_train_context.txt\
+    --train_true_response_path ../data/Douban/tiny_data/tiny_train_true_response_id.txt\
+    --response_index_path ../data/Douban/tiny_data/tiny_train_response_index.txt\
+    --train_context_vec_file ../data/Douban/tiny_data/tiny_douban_train_context_vec.pkl\
+    --all_response_vec_file ../data/Douban/tiny_data/tiny_douban_all_response_vec.pkl\
+    --dev_path ../data/Douban/test.txt\
+    --word2id_path ./embeddings/smn/word2id.txt\
+    --model_type SMN\
+    --embedding_path ./embeddings/smn/embedding.pkl\
+    --batch_size 256\
+    --ckpt_path ./ckpt/smn/finetune/

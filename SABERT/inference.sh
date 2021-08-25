@@ -1,0 +1,11 @@
+CUDA_VISIBLE_DEVICES=5 python inference.py\
+    --corpus_name douban\
+    --train_context_path ../data/Douban/tiny_data/tiny_train_context.txt\
+    --train_true_response_path ../data/Douban/tiny_data/tiny_train_true_response_id.txt\
+    --response_index_path ../data/Douban/tiny_data/tiny_train_response_index.txt\
+    --train_context_vec_file ../data/Douban/tiny_data/tiny_douban_train_context_vec.pkl\
+    --all_response_vec_file ../data/Douban/tiny_data/tiny_douban_all_response_vec.pkl\
+    --dev_path ../data/Douban/test.txt\
+    --bert_path ./bert-base-chinese\
+    --batch_size 64\
+    --ckpt_path ./ckpt/finetune/
