@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ```yaml
 ```
 
-## 2. Download Data [here](https://drive.google.com/file/d/13Fzd91hcJ84abv6RwOKmhInSK0yxQxTx/view?usp=sharing)
+## 2. Download Data [here](https://drive.google.com/file/d/13Fzd91hcJ84abv6RwOKmhInSK0yxQxTx/view?usp=sharing):
 ```yaml
 unzip data.zip and replace it with the empty ./data folder.
 ```
@@ -19,12 +19,17 @@ unzip data.zip and replace it with the empty ./data folder.
 ## 3. SABERT
 ### (1) GPU Requirement:
 ```yaml
-a. 4 x 16 GB (Tesla V100 GPUs)
+a. 4 x Tesla V100 GPUs(16GB)
 b. Cuda Version: 11.0
 ```
-### (2) Download pre-trained BERT parameter [here](https://drive.google.com/file/d/1SECNJGgrBVewSRfTCUlXe_uEhXdyLhd9/view?usp=sharing)
+### (2) Download pre-trained BERT parameter [here](https://drive.google.com/file/d/1SECNJGgrBVewSRfTCUlXe_uEhXdyLhd9/view?usp=sharing):
 ```yaml
 unzip bert-base-chinese.zip and replace it with the empty ./SABERT/bert-base-chinese folder
+```
+### (3) Training from scratch:
+```yaml
+cd ./SABERT
+chmod +x ./train.sh
 ```
 
 
