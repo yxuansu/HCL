@@ -36,6 +36,9 @@ chmod +x ./train.sh
 #### (a) Download pre-trained parameters [here](https://drive.google.com/file/d/1_lEXE4RpG67FOEE0V0Aj7_B1lEADuJ5u/view?usp=sharing):
 ```yaml
 unzip ckpt.zip and replace it with the empty ./SABERT/ckpt folder
+```
+#### (b) Perform inference:
+```yaml
 cd ./SABERT
 chmod +x ./inference.sh
 ./inference.sh
