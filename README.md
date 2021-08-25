@@ -17,7 +17,12 @@ unzip data.zip and replace it with the empty ./data folder.
 ```
 
 ## 3. SABERT
-### (1) Download pre-trained BERT parameter [here](https://drive.google.com/file/d/1SECNJGgrBVewSRfTCUlXe_uEhXdyLhd9/view?usp=sharing)
+### (1) GPU Requirement:
+```yaml
+a. 4 x 16 GB (Tesla V100 GPUs)
+b. Cuda Version: 11.0
+```
+### (2) Download pre-trained BERT parameter [here](https://drive.google.com/file/d/1SECNJGgrBVewSRfTCUlXe_uEhXdyLhd9/view?usp=sharing)
 ```yaml
 unzip bert-base-chinese.zip and replace it with the empty ./SABERT/bert-base-chinese folder
 ```
