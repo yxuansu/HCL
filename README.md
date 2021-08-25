@@ -8,8 +8,6 @@ In this repository, we provide a simpler and more robust implementation of our p
 ```yaml
 pip install -r requirements.txt
 ```
-```yaml
-```
 
 ## 2. Download Data [here](https://drive.google.com/file/d/13Fzd91hcJ84abv6RwOKmhInSK0yxQxTx/view?usp=sharing):
 ```yaml
@@ -70,6 +68,32 @@ unzip ckpt.zip and replace it with the empty ./SMN_MSN/ckpt folder
 cd ./SMN_MSN
 chmod +x ./inference_X.sh (X in ['smn', 'msn])
 ./inference_X.sh
+```
+
+## 5.Citation
+If you find our paper and resources useful, please kindly cite our paper:
+```yaml
+@inproceedings{su-etal-2021-dialogue,
+    title = "Dialogue Response Selection with Hierarchical Curriculum Learning",
+    author = "Su, Yixuan  and
+      Cai, Deng  and
+      Zhou, Qingyu  and
+      Lin, Zibo  and
+      Baker, Simon  and
+      Cao, Yunbo  and
+      Shi, Shuming  and
+      Collier, Nigel  and
+      Wang, Yan",
+    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.acl-long.137",
+    doi = "10.18653/v1/2021.acl-long.137",
+    pages = "1740--1751",
+    abstract = "We study the learning of a matching model for dialogue response selection. Motivated by the recent finding that models trained with random negative samples are not ideal in real-world scenarios, we propose a hierarchical curriculum learning framework that trains the matching model in an {``}easy-to-difficult{''} scheme. Our learning framework consists of two complementary curricula: (1) corpus-level curriculum (CC); and (2) instance-level curriculum (IC). In CC, the model gradually increases its ability in finding the matching clues between the dialogue context and a response candidate. As for IC, it progressively strengthens the model{'}s ability in identifying the mismatching information between the dialogue context and a response candidate. Empirical studies on three benchmark datasets with three state-of-the-art matching models demonstrate that the proposed learning framework significantly improves the model performance across various evaluation metrics.",
+}
 ```
 
 
