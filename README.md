@@ -30,6 +30,15 @@ unzip bert-base-chinese.zip and replace it with the empty ./SABERT/bert-base-chi
 ```yaml
 cd ./SABERT
 chmod +x ./train.sh
+./train.sh
+```
+### (4) Inference from pre-trained checkpoints:
+#### (a) Download pre-trained parameters [here](https://drive.google.com/file/d/1_lEXE4RpG67FOEE0V0Aj7_B1lEADuJ5u/view?usp=sharing):
+```yaml
+unzip ckpt.zip and replace it with the empty ./SABERT/ckpt folder
+cd ./SABERT
+chmod +x ./inference.sh
+./inference.sh
 ```
 
 
