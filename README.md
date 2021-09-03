@@ -2,7 +2,7 @@
 Authors: Yixuan Su, Deng Cai, Qingyu Zhou, Zibo Lin, Simon Baker, Yunbo Cao, Shuming Shi, Nigel Collier, and Yan Wang
 
 ## Introduction:
-In this repository, we provide a simpler and more robust implementation of our paper and it requires less hyper-parameter tuning. We provide data, pre-trained models for Douban dataset. We will update data for Ubuntu and E-commerce soon. 
+In this repository, we provide a simpler and more robust implementation of our ACL2021 paper and it requires less hyper-parameter tuning. We provide data, pre-trained models for Douban dataset. We will update data for Ubuntu and E-commerce soon. 
 
 ## 1. Enviornment Installtion:
 ```yaml
