@@ -1,5 +1,7 @@
-# [Dialogue Response Selection with Hierarchical Curriculum Learning](https://aclanthology.org/2021.acl-long.137.pdf)
+# Dialogue Response Selection with Hierarchical Curriculum Learning
 Authors: Yixuan Su, Deng Cai, Qingyu Zhou, Zibo Lin, Simon Baker, Yunbo Cao, Shuming Shi, Nigel Collier, and Yan Wang
+
+Code for ACL 2021 paper [Dialogue Response Selection with Hierarchical Curriculum Learning](https://aclanthology.org/2021.acl-long.137.pdf)
 
 ## Introduction:
 In this repository, we provide a simpler and more robust implementation of our ACL 2021 paper and it requires less hyper-parameter tuning. We provide data, pre-trained models for Douban dataset. We will update data for Ubuntu and E-commerce soon. 
