@@ -229,6 +229,6 @@ if __name__ == "__main__":
 
     train_mode = 'finetune'
     learn(args, args.finetune_total_steps, data, model, train_mode, device)
-    print ('Pretraining finished.')
+    print ('Finetuning finished.')
     print ('---------------------------------------')
 
