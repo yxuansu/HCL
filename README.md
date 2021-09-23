@@ -74,28 +74,28 @@ chmod +x ./inference_X.sh (X in ['smn', 'msn])
 
 ## 5.Citation
 If you find our paper and resources useful, please kindly cite our paper:
-```yaml
-@inproceedings{su-etal-2021-dialogue,
-    title = "Dialogue Response Selection with Hierarchical Curriculum Learning",
-    author = "Su, Yixuan  and
-      Cai, Deng  and
-      Zhou, Qingyu  and
-      Lin, Zibo  and
-      Baker, Simon  and
-      Cao, Yunbo  and
-      Shi, Shuming  and
-      Collier, Nigel  and
-      Wang, Yan",
-    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
-    month = aug,
-    year = "2021",
-    address = "Online",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2021.acl-long.137",
-    doi = "10.18653/v1/2021.acl-long.137",
-    pages = "1740--1751"
-}
-```
+
+    @inproceedings{su-etal-2021-dialogue,
+        title = "Dialogue Response Selection with Hierarchical Curriculum Learning",
+        author = "Su, Yixuan  and
+          Cai, Deng  and
+          Zhou, Qingyu  and
+          Lin, Zibo  and
+          Baker, Simon  and
+          Cao, Yunbo  and
+          Shi, Shuming  and
+          Collier, Nigel  and
+          Wang, Yan",
+        booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+        month = aug,
+        year = "2021",
+        address = "Online",
+        publisher = "Association for Computational Linguistics",
+        url = "https://aclanthology.org/2021.acl-long.137",
+        doi = "10.18653/v1/2021.acl-long.137",
+        pages = "1740--1751"
+    }
+
 
 
 
